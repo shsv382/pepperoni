@@ -184,9 +184,3 @@ p, dl, ol, ul {
 .cooking-step {
     contain: layout inline-size;
 }
-
-@container (max-width: 300px) {
-    .cooking-step__description {
-        font-size: 0.5em;
-    }
-}
