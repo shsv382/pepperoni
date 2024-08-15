@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер весов</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 600px;
+            margin: 80px auto;
+            border-collapse: collapse;
+            background-color: #f3f3f3;
+        }
+
+        col {
+            width: 25%;
+            min-width: 150px;
+        }
+
+        caption {
+            margin-bottom: 1em;
+        }
+
+        tr {
+            height: 2em;
+        }
+
+        th, td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 2px;
+            border: 1px solid white;
+        }
+
+        tr:hover {
+            background-color: #cccccc;
+        }
+
+        tr, td {
+            transition: all 0.2s ease;
+        }
+
+        td:hover {
+            background-color: orangered;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <h4>Конвертер величин</h4>
+        </caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>
+                    г, мл
+                </th>
+                <th>
+                    ч. ложки
+                </th>
+                <th>
+                    ст. ложки
+                </th>
+                <th>
+                    стаканы
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>0.2</td>
+                <td>0.04</td>
+                <td>0.008</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>1</td>
+                <td>0.2</td>
+                <td>0.04</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>5</td>
+                <td>1</td>
+                <td>0.2</td>
+            </tr>
+            <tr>
+                <td>125</td>
+                <td>25</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

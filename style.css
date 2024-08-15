@@ -176,7 +176,7 @@ p, dl, ol, ul {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .ingredients__header {
+    .ingredients__header, .ingredients__converter {
         grid-column: 1 / 4;
     }
 }
