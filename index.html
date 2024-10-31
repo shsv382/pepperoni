@@ -18,6 +18,10 @@
         Заказать
     </a>
     <main class="container">
+        <nav>
+            <p data-anchor="ingredients">Ингредиенты</p>
+            <p data-anchor="cooking">Приготовление</p>
+        </nav>
         <section class="intro">
             <article class="intro__article">
                 <p class="intro__p">
@@ -31,7 +35,8 @@
             <p class="cook-time__value">1 час 40 минут</p>
         </section>
 
-        <section class="ingredients">
+        <section class="ingredients" 
+        data-warning-out="Предупреждение: после приготовления часть ингредиентов может остаться лежать у вас в холодильнике!">
             <h2 class="ingredients__header">Ингредиенты</h2>
             <a class="ingredients__converter" href="/converter.html">(Конвертер)</a>
             <article class="element ingredients__element">
@@ -147,5 +152,6 @@
             </aside>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
